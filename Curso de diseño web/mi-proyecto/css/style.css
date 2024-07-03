@@ -1,0 +1,84 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico de la página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.logo {
+  width: 119px;
+  height: auto;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.encabezado {
+  background-color: #333;
+}
+nav {
+  background-color: #333;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.producto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.producto img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.producto-info {
+  flex: 1;
+}
+
+.nombre {
+  font-weight: bold;
+}
+
+.precio {
+  color: green;
+}
